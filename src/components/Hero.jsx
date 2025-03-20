@@ -12,6 +12,7 @@ import heroImage from '../assets/hero.jpg';
 const Hero = () => {
   return (
     <section
+      id="hero" 
       className="relative bg-blue-600 text-white min-h-screen flex flex-col justify-center items-center p-8 text-center"
       style={{ backgroundImage: `url(${heroImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
     >

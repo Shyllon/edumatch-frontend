@@ -8,6 +8,8 @@ const AboutUs = () => {
       <div className="text-center md:text-left md:ml-6">
         <h2 className="text-3xl font-bold mb-4">About Edumatch</h2>
         <p className="text-lg mb-2">
+        EduMatch Nigeria is a comprehensive digital platform designed to bridge educational gaps for Nigerian students, with a focus on providing accessible learning resources and career guidance. The platform aims to address two critical challenges: the out-of-school crisis and the skills mismatch problem in the Nigerian educational landscape.
+
           At Edumatch, we aim to bridge the educational gap through technology.
           Our mission is to empower every Nigerian student with access to quality 
           learning resources, skill development, and career opportunities.

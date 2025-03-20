@@ -1,10 +1,10 @@
 // src/api/api.js
 import axios from 'axios';
 
-// ✅ Declare BASE_URL only once
+// Declare BASE_URL only once
 const BASE_URL = 'https://edumatch-nigeria.onrender.com/api';
 
-// ✅ Signup API
+// Signup API
 export const signupUser = async (userData) => {
   try {
     const response = await axios.post(`${BASE_URL}/auth/register`, userData);
@@ -15,7 +15,7 @@ export const signupUser = async (userData) => {
   }
 };
 
-// ✅ Login API
+//  Login API
 export const loginUser = async (credentials) => {
   try {
     const response = await axios.post(`${BASE_URL}/auth/login`, credentials);
