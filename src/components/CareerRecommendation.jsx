@@ -34,7 +34,7 @@ const CareerRecommendation = () => {
   };
 
   return (
-    <section id="career" className="bg-blue-100 p-6 text-center"> {/* ✅ Added id="career" */}
+    <section id="career" className="bg-blue-100 p-6 text-center"> 
       <h2 className="text-3xl font-bold mb-4">Get Career Recommendations</h2>
       <p className="mb-4 max-w-lg mx-auto">
         Enter your skills or knowledge areas (e.g., science, coding, creative, communication) to see personalized career paths!

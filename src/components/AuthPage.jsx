@@ -10,12 +10,12 @@ const AuthPage = () => {
   const [message, setMessage] = useState("");
   const navigate = useNavigate();
 
-  // ✅ Handle Input Change
+  // Handle Input Change
   const handleChange = (e) => {
     setUserData({ ...userData, [e.target.name]: e.target.value });
   };
 
-  // ✅ Handle Form Submission
+  // Handle Form Submission
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -42,7 +42,7 @@ const AuthPage = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      {/* ✅ Logo */}
+      {/* Logo */}
       <motion.img
         src={logo}
         alt="Edumatch Logo"
@@ -52,13 +52,13 @@ const AuthPage = () => {
         transition={{ duration: 0.8 }}
       />
 
-      {/* ✅ Auth Card */}
+      {/* Auth Card */}
       <div className="bg-white shadow-lg rounded-lg p-6 w-80 sm:w-96 text-center">
         <h2 className="text-2xl font-bold mb-4">{isLogin ? "Login to Your Account" : "Create an Account"}</h2>
 
         {message && <p className="text-green-600">{message}</p>}
 
-        {/* ✅ Form */}
+        {/* Form */}
         <form onSubmit={handleSubmit} className="space-y-4">
           {!isLogin && (
             <input
@@ -97,7 +97,7 @@ const AuthPage = () => {
           </button>
         </form>
 
-        {/* ✅ Toggle Button */}
+        {/* Toggle Button */}
         <button
           onClick={() => setIsLogin(!isLogin)}
           className="mt-4 text-blue-500 hover:underline"
@@ -105,7 +105,7 @@ const AuthPage = () => {
           {isLogin ? "New here? Sign up" : "Already have an account? Login"}
         </button>
 
-        {/* ✅ Return to Home */}
+        {/* Return to Home */}
         <button
           onClick={() => navigate("/")}
           className="mt-2 text-gray-500 hover:underline"

@@ -2,7 +2,7 @@ import React from 'react';
 import { Navigate } from 'react-router-dom';
 
 const Dashboard = () => {
-  const isAuthenticated = false;  // This should come from your authentication state
+  const isAuthenticated = false;  
 
   if (!isAuthenticated) {
     return <Navigate to="/login" />;
