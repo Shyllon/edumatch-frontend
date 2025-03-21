@@ -1,6 +1,6 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import heroImage from '../assets/hero.jpg';
+import React from "react";
+import { motion } from "framer-motion";
+import heroImage from "../assets/hero.jpg";
 
 <img 
   src={heroImage} 
@@ -12,9 +12,12 @@ import heroImage from '../assets/hero.jpg';
 const Hero = () => {
   return (
     <section
-      id="hero" 
-      className="relative bg-blue-600 text-white min-h-screen flex flex-col justify-center items-center p-8 text-center"
-      style={{ backgroundImage: `url(${heroImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
+      className="relative text-white min-h-screen flex flex-col justify-center items-center p-8 text-center"
+      style={{
+        backgroundImage: `url(${heroImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
     >
       <motion.h1
         className="text-4xl md:text-6xl font-bold mb-4 bg-black bg-opacity-50 p-2 rounded-lg"

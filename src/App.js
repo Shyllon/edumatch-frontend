@@ -12,7 +12,7 @@ import Partners from "./components/Partners";
 import JoinUs from "./components/JoinUs";
 import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
-import AuthPage from "./components/AuthPage";  // New Auth Page
+import AuthPage from "./components/AuthPage";  
 import Dashboard from "./components/Dashboard";
 
 function App() {
